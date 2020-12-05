@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<rdf:RDF 
+				  xmlns:rdf="https://github.com/iamkape/epamTraining-unotuno-/tree/task2"
+					xmlns:jL="https://github.com/iamkape/epamTraining-unotuno-/tree/task1"> 
+
+  <Description about="https://github.com/iamkape/epamTraining-unotuno-/tree/task2">
+    <author>Sergey Unotuno</author>
+    <homepage>https://github.com/iamkape/epamTraining-unotuno-</homepage>
+  </Description>
+
+  <rdf:Description
+ rdf:about="https://github.com/iamkape/epamTraining-unotuno-/tree/task1/table1.html">
+  <jL:id>999281</jL:id>
+  <jL:date>12.06.2019-11.07.2019</jL:date>
+  <jL:city>минск-киев-милан-рим-париж-минск</jL:city>
+</rdf:Description>
+
+  <rdf:Description
+ rdf:about="https://github.com/iamkape/epamTraining-unotuno-/tree/task1/table1.html">
+  <jL:id>288810</jL:id>
+  <jL:date>01.09.2019-06.11.2019</jL:date>
+  <jL:city>витебск-краков-лион-барселона-минск-витебск</jL:city>
+</rdf:Description>
+
+ <rdf:Description
+ rdf:about="https://github.com/iamkape/epamTraining-unotuno-/tree/task1/table1.html">
+  <jL:id>299190</jL:id>
+  <jL:date>28.11.2019-09.02.2020</jL:date>
+  <jL:city>москва-бейрут-кейптаун-сидней-хабаровск-москва</jL:city>
+</rdf:Description>
+
+ <rdf:Description
+ rdf:about="https://github.com/iamkape/epamTraining-unotuno-/tree/task1/table1.html">
+  <jL:id>678100</jL:id>
+  <jL:date>08.02.2020-21-02.2020</jL:date>
+  <jL:city>киев-стамбул-иерусалим-киев</jL:city>
+</rdf:Description>
+
+<rdf:Description
+ rdf:about="https://github.com/iamkape/epamTraining-unotuno-/tree/task1/table1.html">
+  <jL:id>044919</jL:id>
+  <jL:date>01.04.2020-18.04.2020</jL:date>
+  <jL:city>минск-прага-минск</jL:city>
+</rdf:Description>
+
+
+</rdf:RDF> 

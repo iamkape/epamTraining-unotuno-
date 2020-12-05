@@ -1,0 +1,203 @@
+*{
+	margin:0;
+}
+.navigation-panel{
+	height: 67px;
+	background-color:#ffffff;
+}
+li{
+	display: inline-block;
+ 	font-family: 'Raleway', sans-serif;
+ 	margin-top:17px;
+ 	padding: 12px 36px;
+ 
+
+}
+li:hover{
+	border-radius: 8px;
+	background-color:#EEE8AA;
+}
+li a{
+	text-decoration:none;
+	color: #8d8d8d;
+}
+.menu{
+	float: right;
+	margin-right: 148px;
+}
+.logo{
+	margin-left: 150px;
+	margin-top: 16px;
+	font-size:30px;
+	display: inline-block;
+  font-family: 'Raleway', sans-serif;
+}
+.main-picture{
+	height: 550px;
+	background-image: url('https://cdn.pixabay.com/photo/2019/07/08/15/05/travel-4324953_960_720.jpg');
+	background-size: cover;
+	position: relative;
+
+}
+h1{
+	text-align: center;
+	color:#ffffff;
+	padding-top:170px;
+	word-spacing: 5px;
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+
+}
+
+.places h2{
+	font-family: 'Raleway', sans-serif;
+	color: #8d8d8d;
+	margin-top:20px;
+	margin-left:89px;
+}
+/*стиль для блока с названием стран*/
+.placesBlock{ 
+	height: 341px;
+	width: 593px;
+	position:relative;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: flex-start;
+	border-bottom:8px solid #1298dd;
+	border-radius: 6px;
+	margin-left:660px;
+	margin-top:-100px;
+	background-color:#ffffff;
+	box-shadow:0 0 12px rgba(0,0,0,0.5);
+}
+.flex{
+	padding-top:20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: space-around;	
+}
+.flex img{
+	border-radius: 100%;
+	border:2px solid transparent;
+}
+.flex p {
+	text-align: center;
+	color:#8d8d8d;
+	padding-bottom: 8px;
+	font-family: 'Raleway', sans-serif;
+}
+.flex img:hover{
+	border:2px solid #8d8d8d;
+	cursor: pointer;
+}
+.placesBlock div:hover{
+	transform: scale(1);
+	transition: transform .5s;
+/*окончание стилей для карточки с названием странам*/
+}
+.weve {
+	padding-top: 30px;
+	text-align: center;
+	color:#7e7c7c;
+	font-family: 'Raleway', sans-serif;
+
+}
+.bcg{
+	height: auto;
+	width: auto;
+	background-color:#ececec;
+}
+
+.rightF{
+	float:right;
+	padding-right:100px;
+}
+.leftF{
+	float:left;
+	padding-left:100px;
+	letter-spacing: 3px;
+
+	
+}
+footer{
+	padding-top:30px;
+	height: 50px;
+	font-family: 'Raleway', sans-serif;
+	background-color:#ececec;
+	color:#1298dd;
+	font-size: 18px;
+}
+.info{
+	width: 100%;
+	background-color:#ececec;
+	display:inline-flex;
+	flex-direction:row;
+	justify-content:center;
+}
+.info p{
+	width: 400px;
+	font-family: 'Raleway', sans-serif;
+	font-size:24px;
+	margin:50px 40px;
+	padding:10px 10px;
+	border: 2px solid #1298dd;
+	border-radius:6px;
+	box-shadow:3px 29px 20px -22px rgba(0,0,0,0.67);
+}
+
+
+
+
+/*стили для iframe*/
+.changeLink{
+	text-align:center;
+}
+.tableCard{
+	text-align:center;
+}
+ p{
+ 	width: auto;
+	text-decoration:none;
+	color:#8d8d8d;
+	font-size: 18px;
+	text-align:center;
+}
+/*окончание стилей для iframe*/
+
+/* стили для формы на about.html*/
+.about{
+	background-color: #EEE8AA;
+	height: 341px;
+	width: 593px;
+	position:relative;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: flex-start;
+	border-bottom:8px solid #1298dd;
+	border-radius: 6px;
+	margin-left:660px;
+	margin-top:-100px;
+	box-shadow:0 0 12px rgba(0,0,0,0.5);
+}
+form div {
+	display: flex;
+	flex-direction:column;
+	margin-top:30px;
+}
+.about h2{
+	margin-top: 10px;
+}
+.about textarea {
+	resize: none;
+}
+/*окончание стилей для form на about.html*/
