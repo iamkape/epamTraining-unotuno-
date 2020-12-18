@@ -1,0 +1,252 @@
+*{
+	margin:0;
+}
+.navigation-panel{
+	height: 67px;
+	background-color:#ffffff;
+
+
+}
+li{
+	display: inline-block;
+ 	font-family: 'Raleway', sans-serif;
+ 	margin-top:17px;
+ 	padding: 12px 36px;
+ 
+
+}
+li:hover{
+	border-radius: 8px;
+	background-color:#EEE8AA;
+}
+li a{
+	text-decoration:none;
+	color: #8d8d8d;
+}
+.menu{
+	float: right;
+	margin-right: 148px;
+}
+.logo{
+	margin-left: 150px;
+	margin-top: 16px;
+	font-size:30px;
+	display: inline-block;
+  font-family: 'Raleway', sans-serif;
+}
+.main-picture{
+	height: 550px;
+	background-image: url('https://cdn.pixabay.com/photo/2019/07/08/15/05/travel-4324953_960_720.jpg');
+	background-size: cover;
+	position: relative;
+
+}
+h1{
+	text-align: center;
+	color:#ffffff;
+	padding-top:170px;
+	word-spacing: 5px;
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+																											/*стили для P на главной странице*/
+.wrapper p{
+	margin: 30px;
+	font-size:20px;
+	letter-spacing: 1px;
+	word-spacing:2px;
+	font-family: 'Work Sans', sans-serif;
+	color:#151513;
+
+}
+																											/*зафиксировать nav*/
+nav{
+ position:fixed;
+ z-index: 100;
+ width: 100%;
+}
+																											/*стили для обтекания фотографий текста*/
+.photo1{
+	float:right;
+	margin:20px;
+	box-shadow:3px 3px 14px 5px rgba(0,0,0,0.58);
+}
+.photo2{
+	float:left;
+	margin:20px;
+	box-shadow:3px 3px 14px 5px rgba(0,0,0,0.58);
+}
+.photo3{
+	float:right;
+	margin:20px;
+	box-shadow:3px 3px 14px 5px rgba(0,0,0,0.58);
+}
+																											/*стили для новостной ленты*/
+.newsBlock{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	flex-basis:auto;
+}
+
+.newsBlock img{
+width:590px;
+border:2px solid whitesmoke;
+border-radius:30px;
+}
+
+.weve {
+	padding-top: 30px;
+	text-align: center;
+	color:#967a7a;
+	font-family: 'Raleway', sans-serif;
+	clear: both;
+}
+
+.rightF{
+	float:right;
+	padding-right:100px;
+}
+.leftF{
+	float:left;
+	padding-left:100px;
+	letter-spacing: 3px;
+}
+footer{
+	display:block;
+	font-family: 'Raleway', sans-serif;
+	background-color:black;
+	color:#1298dd;
+	font-size: 18px;
+	margin-top: 40px;
+	
+}
+
+																						/*grid*/
+.info{
+display:grid;
+grid-template-columns: 1fr 2fr 1fr;
+grid-gap:100px;
+justify-items:center;
+grid-auto-rows:minmax(200px, auto);
+
+
+}
+.info p{
+	font-family: 'Raleway', sans-serif;
+	font-size:24px;
+	padding:10px 10px;
+}
+
+.info div{
+	margin:0px 30px;
+	font-family: 'Raleway', sans-serif;
+	font-size:24px;
+	border: 2px solid #1298dd;
+	border-radius:6px;
+	box-shadow:3px 29px 20px -22px rgba(0,0,0,0.67);
+}
+																											/*стили для iframe*/
+.changeLink{
+	text-align:center;
+}
+.tableCard{
+	text-align:center;
+}
+ p{
+ 	width: auto;
+	text-decoration:none;
+	color:#8d8d8d;
+	font-size: 18px;
+	text-align:center;
+}
+																											/*окончание стилей для iframe*/
+
+																											/* стили для формы на about.html*/
+.about{
+	background-color: #EEE8AA;
+	height: 341px;
+	width: 593px;
+	position:relative;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: flex-start;
+	border-bottom:8px solid #1298dd;
+	border-radius: 6px;
+	margin-left:660px;
+	margin-top:-100px;
+	box-shadow:0 0 12px rgba(0,0,0,0.5);
+}
+form div {
+	display: flex;
+	flex-direction:column;
+	margin-top:30px;
+}
+.about h2{
+	margin-top: 10px;
+}
+.about textarea {
+	resize: none;
+}
+																											/*окончание стилей для form на about.html*/
+/*.places h2{
+	font-family: 'Raleway', sans-serif;
+	color: #8d8d8d;
+	margin-top:20px;
+	margin-left:89px;
+}
+стиль для блока с названием стран
+.placesBlock{ 
+	height: 341px;
+	width: 593px;
+	position:relative;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: flex-start;
+	border-bottom:8px solid #1298dd;
+	border-radius: 6px;
+	margin-left:660px;
+	margin-top:-100px;
+	background-color:#ffffff;
+	box-shadow:0 0 12px rgba(0,0,0,0.5);
+}
+.flex{
+	padding-top:20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: space-around;	
+}
+.flex img{
+	border-radius: 100%;
+	border:2px solid transparent;
+}
+.flex p {
+	text-align: center;
+	color:#8d8d8d;
+	padding-bottom: 8px;
+	font-family: 'Raleway', sans-serif;
+}
+.flex img:hover{
+	border:2px solid #8d8d8d;
+	cursor: pointer;
+}
+.placesBlock div:hover{
+	transform: scale(1);
+	transition: transform .5s;
+окончание стилей для карточки с названием странам
+}
+.bcg{
+	height: auto;
+	width: auto;
+	background-color:#ececec;
+}*/
