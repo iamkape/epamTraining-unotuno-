@@ -1,0 +1,53 @@
+//Variables
+@firstC:first-child;
+@lastC:last-child;
+@brd:border;
+@borRad:border-radius;
+@col1: #BCEBDD;
+@col2: #2D2020;
+@col3: #F8E391;
+@col4: 	white;
+//end
+
+#tb1{
+	font-size:14px;
+	@{borRad}:10px;
+	@{brd}-spacing:0;
+	text-align: center;
+}
+
+th{
+	background:@col1;
+	color:@col4;
+	text-shadow: 0 1px 1px @col2;
+	padding:10px 20px;
+}
+th,td{
+	
+	@{brd}-style:solid;
+	@{brd}-width:0 1px 1px 0;
+	@{brd}-color:@col4;
+}
+th:@{firstC},td:@{firstC}{
+	text-align:left;
+}
+th:@{firstC}{
+	@{brd}-top-left-radius:10px;
+}
+th:@{lastC}{
+	@{brd}-top-right-radius:10px;
+	@{brd}-right:none;
+	}
+td{
+	padding:10px 20px;
+	background:@col3;
+}
+tr:@{lastC},td:@{firstC}{
+	@{brd}-radius: 0 0 0 10px;
+}
+tr:@{lastC},td:@{firstC}{
+	@{brd}-radius:0 0 10px 0;
+}
+tr, td:@{lastC}{
+	@{brd}-right:none;
+}

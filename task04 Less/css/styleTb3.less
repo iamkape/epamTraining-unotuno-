@@ -1,0 +1,24 @@
+//variables
+@col1:blue;
+@size:10px;
+@ctr:center;
+@lin:linear-gradient;
+@lt:left;
+//!!!!!!!!!!!!
+
+
+#tb3{
+	border:@size*0.2 solid @col1;
+	border-radius:6px;
+	text-align:@ctr;
+	border-spacing:@size*1.3;
+	background: ~"@{lin}(50deg ,#b2cbeb, #ffffff)";
+}
+td:last-child{
+	text-align:@lt;
+}
+th,td{
+	border:0.2px solid @col1;
+	border-radius:@size;
+	padding:@size*0.5 @size*0.5;
+}

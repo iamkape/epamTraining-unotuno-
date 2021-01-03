@@ -1,0 +1,27 @@
+//variables
+@col1:#ECE9E0;
+@col2:#656665;
+@col3:#F5D7BF;
+@br:border;
+@lt:left;
+@septe:separate;
+@size:10px;
+//!!!!!!!!!!!!!
+
+#tb2{
+	text-align:@lt;
+	@{br}-collapse:@septe;
+	@{br}-spacing:@size*0.5;
+	background:@col1;
+	color:@col2;
+	@{br}:@size*1.6 solid @col1;
+	@{br}-radius:@size*2;
+}
+th{
+	font-size:@size*1.4;
+	padding:@size;
+}
+td{
+	background:@col3;
+	padding:@size;
+}
