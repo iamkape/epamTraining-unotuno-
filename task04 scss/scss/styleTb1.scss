@@ -1,0 +1,54 @@
+//variables
+$col_1:#BCEBDD;
+$col_2:white;
+$col_3:#F8E391;
+$col_4:#2D2020;
+$size:14px;
+
+#tb1{
+	font-size:$size;
+@if $size==14px{
+	text-align:center;
+}
+@else{
+	text-align:left
+};
+	border-radius:10px;
+	border-spacing:0;
+}
+th{
+	background:$col_1;
+	color:white;
+	text-shadow:0 1px 1px $col_4;
+	padding:10px 20px;
+}
+
+th,td{
+	border-style:solid;
+	border-width:0 1px 1px 0;
+	border-color:$col_2;
+}
+
+th:first-child, td:first-child {
+	text-align: left;
+	}
+	th:first-child {
+	border-top-left-radius: 10px;
+	}
+	th:last-child {
+	border-top-right-radius: 10px;
+	border-right: none;
+	}
+	td {
+	padding: 10px 20px;
+	background: $col_3;
+	}
+	tr:last-child td:first-child {
+	border-radius: 0 0 0 10px;
+	}
+	tr:last-child td:last-child {
+	border-radius: 0 0 10px 0;
+	}
+	tr td:last-child {
+	border-right: none;
+	}

@@ -1,0 +1,20 @@
+//variables
+$col_1:blue;
+$col_2:#b2cbeb;
+$col_3:#ffffff;
+
+#tb3{
+	border: 2px solid $col_1;
+	border-radius:6px;
+	text-align:center;
+	border-spacing:13px;
+	background:linear-gradient(50deg,$col_2,$col_3);
+}
+td:last-child{
+	text-align:left;
+}
+th,td{
+	border:0.2px solid $col_1;
+	border-radius:10px;
+	padding:5px 5px;
+}

@@ -1,0 +1,23 @@
+//variables 
+$col_1:#ECE9E0;
+$col_2:#656665;
+$col_3:#F5D7BF;
+$size:10px;
+
+#tb2{
+	text-align: left;
+	border-collapse:separate;
+	border-spacing:5px;
+	background:$col_1;
+	color:$col_2;
+	border:16px solid $col_1;
+	border-radius:20px;
+}
+th{
+	font-size:14px;
+	padding:10px;
+}
+td{
+	background:$col_3;
+	padding: 10px;
+}
