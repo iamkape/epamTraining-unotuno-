@@ -1,0 +1,66 @@
+body{
+background-color: whitesmoke;
+user-select:none;
+}
+.container{
+display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr;
+grid-gap:2px;
+max-width: 400px;
+}
+.item{
+	background-color: #336666;
+	padding: 20px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	cursor: pointer;
+	font-size:30px;
+	font-weight: bold;
+	border:5px solid black;
+	border-radius:5px;
+}
+.result{
+	grid-column:1/-1;
+	width: 350px;
+	height: 20px;	
+}
+form{
+	max-width: 100%;
+}
+.equal{
+	grid-column:4;
+	grid-row: 5/7;
+	background-color:#876ED7;	
+}
+.resultBoard{
+	overflow:hidden;
+	background-color: yellow;
+	width: 400px;
+	border:5px solid black;
+	padding: 5px;
+	border-radius:5px;
+	font-weight: bold;
+}
+.divide,
+.plus,
+.minus,
+.multiply{
+	background-color: #412C84;
+}
+.delete{
+	background-color:#FF4040;
+}
+.dotHtml{
+	display:none;
+}
+.brackets{
+	display:none;
+}
+button{
+	margin:40px 0 20px 60px;
+ 	background-color:#876ED7;
+ 	padding: 10px;
+ 	border-radius:8px;
+ 	outline:none;
+}

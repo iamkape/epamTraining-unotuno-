@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!--1 2 3 4 5 6 7 8 9 0 - + * / = ( ) . --> 
+<div class="container">
+	<div class="item result">
+		<p>
+		
+		</p>		
+	</div>
+		
+		<div class="item"id='number'onclick="calc('1')"> 1 </div>
+		<div class="item"id='number'onclick="calc('2')"> 2 </div>
+		<div class="item"id='number'onclick="calc('3')"> 3 </div>
+		<div class="item delete"onclick="del()"> &larr; </div>
+		<div class="item"id='number'onclick="calc('4')"> 4 </div>
+		<div class="item"id='number'onclick="calc('5')"> 5 </div>
+		<div class="item"id='number'onclick="calc('6')"> 6 </div>
+		<div class="item plus"onclick="calc('+')"> + </div>
+		<div class="item"id='number'onclick="calc('7')"> 7 </div>
+		<div class="item"id='number'onclick="calc('8')"> 8 </div>
+		<div class="item"id='number'onclick="calc('9')"> 9 </div>
+		<div class="item minus"onclick="calc('-')"> - </div>
+		<div class="item multiply"onclick="calc('*')"> &times; </div>
+		<div class="item"onclick="calc('0')"> 0 </div>
+		<div class="item divide"onclick="calc('/')"> &divide; </div>
+		<div class="item equal"onclick="equal()"> = </div>
+		<div class="item brackets"onclick = "addBracket(' ( ')"> ( </div>
+		<div class="item brackets"onclick = "addBracket(' ) ')"> ) </div>
+		<div class="item dotHtml" onclick = "addDot( '.' )"> . </div>
+		</div>
+		<div>
+			<button>Узнать результаты вычислений</button>
+		</div>
+<p>
+		Choose options:		 
+</p>
+<div>
+		<input type="radio" name="priority" id="priority" onclick ='showPriority()'>
+		<label for="priority">Приоритет операций</label>
+</div>
+<div>
+	  <input class="check" type="checkbox" name="dot" id="dot" onchange="showDot()">
+	  <label for="dot">Работа с вещественным числами</label>
+</div>
+	<script type="text/javascript"src="js/script.js"></script>
+
+</body>
+</html>
